@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MINIwerks.master.cs" Inherits="MINIwerks_eCommerce.MINIwerks" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" type="text/css"
+        <a href="MINIwerks.css"></a>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <nav>
+            <ul>
+                <li><a href="Default.aspx">Home</a></li>
+                <li><a href="Products.aspx">Products</a></li>
+                <li><a href="Our Company">Our Company</a></li>
+                <li><a href="Sign Up">Sign Up</a></li>
+                <li><a href="Customer Login">Login</a></li>
+                <li><a href="Contact Us">Contact Us</a></li>
+            </ul>
+        </nav>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
