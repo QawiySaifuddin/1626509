@@ -11,5 +11,14 @@ namespace MINIwerks_eCommerce {
     
     
     public partial class Default {
+        
+        /// <summary>
+        /// bannerMINI control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image bannerMINI;
     }
 }

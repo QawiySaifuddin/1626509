@@ -96,7 +96,8 @@
   <ItemGroup>
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
-    <Content Include="MINIwerks.css" />
+    <Content Include="CSS\MINIwerks.css" />
+    <Content Include="Location.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -143,6 +144,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Images\" />
+    <Folder Include="Javascript\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
