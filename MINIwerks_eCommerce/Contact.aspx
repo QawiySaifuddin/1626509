@@ -22,10 +22,10 @@
     <p><asp:TextBox ID="TextBoxMsg" runat="server" Height="235px" Width="600px" MaxLength="150"></asp:TextBox></p>
 
     <asp:Button ID="Button1" runat="server" Text="Send Enquiry" />
-    </center>
-
-    <div id="googleMap" style="width:100%;height:500px;"/>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWaY_O60trpmrAheYaVxjMEokSU6mTTAk&callback=myMap"></script>
     
+
+    <div id="googleMap" style="width:700px;height:500px;"/>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWaY_O60trpmrAheYaVxjMEokSU6mTTAk&callback=myMap"></script>
+    </center>
 
 </asp:Content>
